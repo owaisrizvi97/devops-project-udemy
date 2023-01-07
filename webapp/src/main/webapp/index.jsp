@@ -1,57 +1,74 @@
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
-<html lang="en" dir="ltr">
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-   <!-- <title> Responsive Contact Us Form  | CodingLab </title>-->
-    <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
-  <div class="container">
-    <div class="content">
-      <div class="left-side">
-        <div class="address details">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="topic">Address</div>
-          <div class="text-one">Surkhet, NP12</div>
-          <div class="text-two">Birendranagar 06</div>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>Email and Password Validation</title>-->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>Signup</header>
+      <form action="https://www.codinglabweb.com/">
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="email" placeholder="Enter your email" class="email" />
+          </div>
+          <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Please enter a valid email</p>
+          </span>
         </div>
-        <div class="phone details">
-          <i class="fas fa-phone-alt"></i>
-          <div class="topic">Phone</div>
-          <div class="text-one">+0098 9893 5647</div>
-          <div class="text-two">+0096 3434 5678</div>
+        <div class="field create-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Create password"
+              class="password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Please enter atleast 8 charatcer with number, symbol, small and
+              capital letter.
+            </p>
+          </span>
         </div>
-        <div class="email details">
-          <i class="fas fa-envelope"></i>
-          <div class="topic">Email</div>
-          <div class="text-one">codinglab@gmail.com</div>
-          <div class="text-two">info.codinglab@gmail.com</div>
+        <div class="field confirm-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Confirm password"
+              class="cPassword"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Password don't match</p>
+          </span>
         </div>
-      </div>
-      <div class="right-side">
-        <div class="topic-text">Send us a message</div>
-        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Enter your name">
-        </div>
-        <div class="input-box">
-          <input type="text" placeholder="Enter your email">
-        </div>
-        <div class="input-box message-box">
-          
-        </div>
-        <div class="button">
-          <input type="button" value="Send Now" >
+        <div class="input-field button">
+          <input type="submit" value="Submit Now" />
         </div>
       </form>
     </div>
-    </div>
-  </div>
-</body>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
 </html>
+
 
