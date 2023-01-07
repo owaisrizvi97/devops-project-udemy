@@ -9,12 +9,13 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
-
+    
     <!-- Boxicons CSS -->
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="container">
@@ -67,7 +68,7 @@
     </div>
 
     <!-- JavaScript -->
-     <script src="script.js"></script>
+     
   </body>
 </html>
 
