@@ -8,7 +8,7 @@
     <!--<title>Email and Password Validation</title>-->
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Boxicons CSS -->
     <link
@@ -67,7 +67,7 @@
     </div>
 
     <!-- JavaScript -->
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script>-->
   </body>
 </html>
 
